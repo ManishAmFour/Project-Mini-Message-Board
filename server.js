@@ -5,7 +5,7 @@ const processRender = require("./routes/processRender");
 let path = require("path");
 
 const server = express();
-const PORT = 5342;
+const PORT = "5342";
 
 server.set("view engine", "ejs");
 server.set("views", path.join(__dirname, "./views"));
