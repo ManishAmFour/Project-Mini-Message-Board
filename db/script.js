@@ -14,7 +14,7 @@ const messages = [
 ];
 
 async function scripting() {
-  let command = `CREATE TABLE messages (
+  let command = `CREATE TABLE IF NOT EXISTS messages (
       text VARCHAR( 255 ),
       username VARCHAR( 255 ),
       added VARCHAR( 255 )
