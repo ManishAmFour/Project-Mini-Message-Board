@@ -1,4 +1,4 @@
-const retrieval = require("../db/retrieval");
+const retrieval = require("../models/retrieval");
 
 const homeController = async (req, res) => {
   res.render("index", {

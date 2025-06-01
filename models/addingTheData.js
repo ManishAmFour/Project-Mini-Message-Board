@@ -1,4 +1,4 @@
-let pool = require("./connect");
+let pool = require("../db/connect");
 
 async function additionOfData(message, userName, date) {
   let command2 = `

@@ -1,4 +1,4 @@
-let pool = require("./connect");
+let pool = require("../db/connect");
 
 async function retrieval() {
   let { rows } = await pool.query(

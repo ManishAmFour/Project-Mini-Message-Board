@@ -1,4 +1,4 @@
-const additionOfData = require("../db/addingTheData");
+const additionOfData = require("../models/addingTheData");
 
 const additionControl = async (req, res) => {
   await additionOfData(req.body.messageText, req.body.authorsName, new Date());
